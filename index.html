@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="files/pop-up/pop-up.css?_v=20230204221227">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230204221227">
+	<link rel="stylesheet" href="files/simplebar/simplebar.css?_v=20230204221227">
+	<title>Home</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<a href="#popup_01" class="popup-link">Do koszyka</a>
+
+		<div id="popup_01" class="popup popup-product">
+			<div class="popup__body">
+				<div class="popup__content">
+					<picture><source srcset="images/popup-illustration.webp" type="image/webp"><img class="popup-product__left-illustration" src="images/popup-illustration.png" alt=""></picture>
+					<picture><source srcset="images/popup-illustration.webp" type="image/webp"><img class="popup-product__right-illustration" src="images/popup-illustration.png" alt=""></picture>
+					<a href="" class="popup__close close-popup">
+						<svg width="6" height="7" viewBox="0 0 6 7" fill="none">
+							<path
+								d="M5.71578 1.83106L3.96357 3.58327L5.69598 5.31568L4.63673 6.37493L2.90432 4.64251L1.15211 6.39472L0.162161 5.40478L1.91437 3.65256L0.181959 1.92015L1.24121 0.860906L2.97362 2.59332L4.72583 0.841108L5.71578 1.83106Z"
+								fill="#F10828" />
+						</svg>
+					</a>
+					<form action="#" class="popup-product__form">
+						<div class="popup-product__top">
+							<div class="popup-product__blockImage">
+								<picture><source srcset="images/image.webp" type="image/webp"><img src="images/image.jpg" alt=""></picture>
+							</div>
+							<h2 class="popup-product__name">Margherita 44 zl</h2>
+						</div>
+						<div data-simplebar class="popup-product__wrap-content">
+							<div class="popup-product__block">
+								<h3 class="popup-product__block-title">Dodaj swoje ulubione składniki</h3>
+								<div class="popup-product__block-wrap-info row">
+									<p>Ananas <span class="remove">remove</span></p>
+									<p>Ananas <span class="remove">remove</span></p>
+									<p>Ananas <span class="remove">remove</span></p>
+									<button type="button" class="popup-product__arrow-btn cursor-pointer">
+										<svg width="13" height="8" viewBox="0 0 13 8" fill="none">
+											<path d="M12 1L6.5 6.5L1 1" stroke="white" stroke-width="2" stroke-linecap="round" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="popup-product__block">
+								<h3 class="popup-product__block-title">Dodaj swoje ulubione składniki</h3>
+								<div class="popup-product__block-wrap-info column">
+									<p>Ananas <span class="remove">remove</span></p>
+									<p>Kukurydza <span class="remove">remove</span></p>
+									<p>Oregano <span class="remove">remove</span></p>
+								</div>
+							</div>
+							<div class="popup-product__block">
+								<h3 class="popup-product__block-title">Wybierz rozmiar</h3>
+								<div class="popup-product__block-wrap-info row row-buttons">
+									<button class="popup-product__button">Mala</button>
+									<button class="popup-product__button">Średnia</button>
+								</div>
+							</div>
+							<div class="popup-product__block">
+								<h3 class="popup-product__block-title">Wybierz bazowy sos do pizzy</h3>
+								<div class="popup-product__block-wrap-info row row-buttons">
+									<button class="popup-product__button">Kremowy</button>
+									<button class="popup-product__button">Pomidorowy</button>
+								</div>
+							</div>
+							<div class="popup-product__block">
+								<h3 class="popup-product__block-title">Wybierz ser</h3>
+								<div class="popup-product__block-wrap-info row row-buttons">
+									<button class="popup-product__button">Mala</button>
+									<button class="popup-product__button selected">Pomidorowy</button>
+								</div>
+							</div>
+						</div>
+						<div class="popup-product__bottom">
+							<div class="number">
+								<span class="number__minus">-</span>
+								<input class="number__input" type="text" value="1" size="5">
+								<span class="number__plus">+</span>
+							</div>
+							<button class="popup-product__submit">Dodaj 44 zł</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="files/js/jquery-3.6.1.min.js?_v=20230204221227"></script>
+	<script src="files/js/buttons+-for-input-numbers.js?_v=20230204221227"></script>
+	<script src="files/pop-up/pop-up.js?_v=20230204221227"></script>
+	<script src="files/simplebar/simplebar.min.js?_v=20230204221227"></script>
+</body>
+
+</html>
